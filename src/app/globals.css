@@ -5,6 +5,47 @@
   --jordy-blue: #9EC2FB;
   --moss-green: #969B40;
   --dark-moss-green: #465105;
-  --white: #ffff;
-  --black: #0000;
+  --white: #ffffff;
+  --black: #000000;
+
+  --Gambarino: 'Gambarino';
+  --Switzer: 'Switzer';
+  --Switzer-Bold: 'Switzer Bold';
+  --Switzer-Semibold: 'Switzer SemiBold';
+}
+
+@font-face {
+  font-family: 'Gambarino';
+  src: url('/fonts/Gambarino-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('/fonts/Switzer-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer Bold';
+  src: url('/fonts/Switzer-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer SemiBold';
+  src: url('/fonts/Switzer-Semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--white);
 }
