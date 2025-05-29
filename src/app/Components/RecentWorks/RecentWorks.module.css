@@ -1,0 +1,86 @@
+.recentWorks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentWorks h2 {
+    font-family: var(--Gambarino);
+    font-weight: 100;
+    font-size: 96px;
+    color: var(--dark-moss-green);
+    padding: 15px;
+    margin: 0;
+}
+
+.worksCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--dark-moss-green);
+    border-top: 1px solid var(--dark-moss-green);
+    padding: 5rem 0;
+    gap: 7rem;
+    margin: 0;
+    width: 100%;
+}
+
+.worksCard h3 {
+    font-family: var(--Gambarino);
+    font-weight: 100;
+    font-size: 48px; 
+    color: var(--dark-moss-green);
+    margin-top: -1rem;
+    margin-bottom: 0;
+}
+
+.worksCard p {
+    font-family: var(--Switzer);
+    font-size: 16px;
+}
+
+.worksCard span {
+    font-family: var(--Switzer-Semibold);
+    display: inline-block;
+    width: 100px;
+    font-weight: 600;
+    margin-right: 1.5rem;
+}
+
+.worksDetails {
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.worksDetails p:nth-of-type(2),
+.worksDetails p:nth-of-type(3) {
+  margin-top: 0.25rem;
+  margin-bottom: -1.75rem;
+}
+
+.worksDetails p:first-of-type {
+    margin-bottom: 2.5rem;
+}
+
+.worksDetails button {
+    background-color: var(--mulberry);
+    border: none;
+    color: var(--white);
+    width: 150px;
+    padding: 0.25rem;
+    font-size: 16px;
+    height: 48px;
+    margin-top: 1.5rem;
+}
+
+.worksCard img {
+    width: 467px;
+    height: 368px;
+    object-fit: cover;
+    margin: 0 -5rem;
+}
